@@ -2,13 +2,4 @@
 He asks your help to print the number but Since he hates numbers, he asks you to write the program such that 
 there would not be any number in the code.'''
 
-a = ['d', 'e', 'f', 'g', 'h', 'i']
-b = ['d', 'e', 'f', 'g', 'h', 'i', 'j']
-c = ['d', 'e', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n']
-
-x = len(a)
-y = len(b)
-z = len(c)
-
-res = x*y*z
-print(res)
+print(ord('F')*len('abcdef'))
